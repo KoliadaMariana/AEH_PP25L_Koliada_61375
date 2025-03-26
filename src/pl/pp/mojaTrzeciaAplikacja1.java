@@ -1,6 +1,6 @@
 package pl.pp;
 import java.util.Scanner;
-public class mojaDrugaAplikacja1 {
+public class mojaTrzeciaAplikacja1 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj swój wiek w latach: ");
