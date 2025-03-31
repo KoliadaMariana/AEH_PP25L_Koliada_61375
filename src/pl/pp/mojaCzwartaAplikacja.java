@@ -51,9 +51,7 @@ System.out.println("Enter next set of limits: ");
             if (a != 1 && a != 2 && a != 3 && a != 4) {
                 break;
             }
-            if ( a == -1) {
-                break;
-            }
+
             System.out.println(" Prosze podać dzwie liczby (lub -1, aby zakonczyć)");
             int l1 = sc.nextInt();
             int l2 = sc.nextInt();
@@ -63,7 +61,7 @@ System.out.println("Enter next set of limits: ");
                     System.out.println((l1 - l2) + " lub " + (l2 - l1));
                 } else if (a == 3) {
                     System.out.println((l1 * l2));
-                } else if  (a == 4) {
+                } if (a == 4) {
                     System.out.println((l1 / l2) + " lub " + (l2 / l1));
                 }
                 System.out.println("Prosze podać dwie liczby" + "\n");
