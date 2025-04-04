@@ -1,9 +1,7 @@
 package pl.pp;
 
-import java.util.Scanner;
-
-public class mojaCzwartaAplikacja {
-    /*public static void main(String[] args) {
+/*public class mojaPiątaAplikacja {
+    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     while (true) {
         System.out.print("Enter lower and upper integer limit: ");
@@ -39,7 +37,7 @@ System.out.println("Enter next set of limits: ");
     sc.close();
     }*/
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Prosze wybracz operacje ( lub -1, aby zalonczyć " + "\n" );
         while ( true) {
@@ -66,11 +64,22 @@ System.out.println("Enter next set of limits: ");
                 }
                 System.out.println("Prosze podać dwie liczby" + "\n");
             }
-        }
+        }*/
 
+
+public class mojaPiataAplikacja {
+    public static void main(String[] args) {
+        printCharacterGrid('*', 6, 4);
     }
 
-
+    private static void printCharacterGrid(char symbol, int width, int height) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                System.out.print(symbol + " ");
+            }
+            System.out.println();  // Перехід на новий рядок
+        }
+    }}
 
 
 
