@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class mojaSzostaAplikacja {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Podaj liczbę N: ");
+        System.out.println("Podaj liczbę N:");
         int n = input.nextInt();
 
         long startIter = System.nanoTime();
@@ -23,7 +23,6 @@ public class mojaSzostaAplikacja {
 
         input.close();
     }
-
     public static long silniaIteracyjna(int n) {
         long wynik = 1;
         for (int i = 2; i <= n; i++) {
@@ -31,7 +30,6 @@ public class mojaSzostaAplikacja {
         }
         return wynik;
     }
-
     public static long silniaRekurencyjna(int n) {
         if (n <= 1) {
             return 1;
