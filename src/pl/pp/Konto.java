@@ -10,7 +10,7 @@ public class Konto { private String numerKonta;
     public Konto() {
     }
 
-    public Konto(String numerKonta, double saldo, String wlasciciel, String email, String telefon) {
+    public Konto(String numerKonta, double saldo, String wlasciciel,String telefon, String email ) {
         this.numerKonta = numerKonta;
         this.saldo = saldo;
         this.wlasciciel = wlasciciel;
@@ -61,14 +61,6 @@ public class Konto { private String numerKonta;
         this.wlasciciel = wlasciciel;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getTelefon() {
         return telefon;
     }
@@ -76,6 +68,14 @@ public class Konto { private String numerKonta;
     public void setTelefon(String telefon) {
         this.telefon = telefon;
     }
-}
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }}
+
 
 
